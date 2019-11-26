@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import co.edu.unal.se1back.R;
 import android.os.Bundle;
 
-public class SignUpActivity extends AppCompatActivity {
+public class SignUpView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

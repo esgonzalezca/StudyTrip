@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import co.edu.unal.se1back.R;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
