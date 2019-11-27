@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".presentation.activity.SignUpView"></activity>
+        <activity android:name=".presentation.activity.PlaceholderFragment"></activity>
+        <activity android:name=".presentation.activity.UserMenu" />
+        <activity android:name=".presentation.activity.MainMenu" />
+        <activity android:name=".presentation.activity.UserOptions" />
+        <activity android:name=".presentation.activity.SignUpView" />
         <activity android:name=".presentation.activity.LoginView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

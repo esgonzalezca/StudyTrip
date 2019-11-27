@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import co.edu.unal.se1back.R;
 
-public class LoginView extends AppCompatActivity {
+public class UserMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_user_menu);
     }
 }
