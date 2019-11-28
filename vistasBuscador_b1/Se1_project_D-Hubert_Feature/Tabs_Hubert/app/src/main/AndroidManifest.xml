@@ -13,6 +13,10 @@
             android:name=".Tabbed2"
             android:label="@string/title_activity_tabbed2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".CrearGrupo"
+            android:label="CrearGrupo"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".buscarActivity" />
         <activity
             android:name=".Main2ActivityBuscador"

@@ -11,13 +11,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
+import co.edu.unal.tabs_hubert.CrearGrupo;
 import co.edu.unal.tabs_hubert.R;
-import co.edu.unal.tabs_hubert.ui.main.CrearGrupo;
-import co.edu.unal.tabs_hubert.ui.main.MainActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -36,6 +32,8 @@ public class MostrarGrupos extends Fragment{
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    Button cgb;
+    View vista;
 
     private OnFragmentInteractionListener mListener;
 
@@ -74,8 +72,17 @@ public class MostrarGrupos extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_mostrar_grupos, container, false);
-        return view;
+        vista=inflater.inflate(R.layout.fragment_mostrar_grupos, container, false);
+        cgb=(Button) vista.findViewById(R.id.createGB);
+
+        cgb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(getContext(), CrearGrupo.class);
+                startActivity(i);
+            }
+        });
+        return vista;
     }
 
 
