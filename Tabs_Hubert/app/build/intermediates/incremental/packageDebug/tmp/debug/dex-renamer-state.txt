@@ -1,7 +1,0 @@
-#Sun Nov 24 12:42:42 COT 2019
-base.0=C\:\\Users\\sergi\\Documents\\Se1_project_D\\Tabs_Hubert\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
-path.1=classes.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=C\:\\Users\\sergi\\Documents\\Se1_project_D\\Tabs_Hubert\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
