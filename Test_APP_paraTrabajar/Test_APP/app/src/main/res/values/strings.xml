@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Test_APP</string>
+    <string name="tab_text_1">Mis Grupos</string>
+    <string name="tab_text_2">Mis Eventos</string>
+    <string name="tab_text_3">Buscador</string>
+    <string name="tab_text_4">Grupos</string>
+    <string name="tab_text_5">Eventos</string>
+    <string name="tab_text_6">Opciones</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2_buscador">Main2ActivityBuscador</string>
+    <string name="title_activity_tabbed2">Tabbed2</string>
+</resources>
