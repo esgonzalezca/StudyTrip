@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.edu.unal.test_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".ShowEvent" />
+        <activity android:name=".SeeAnnouncements" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".Tabbed2"
+            android:label="@string/title_activity_tabbed2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".businesslogic.CrearGrupo"
+            android:label="CrearGrupo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VerListaDeEventos"
+            android:label="CrearGrupo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".showEventJoined"
+            android:label="showEventJoined"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowGroupToJoin"
+            android:label="ShowGroupToJoin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="MainMenuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUpView"
+            android:label="SignUpView"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".showGroup"
+            android:label="showGroup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateAnnouncement"
+            android:label="showGroup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateEvent"
+            android:label="showGroup"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
